@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/dia1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagen_dia1" />
+
+    <ImageView
+        android:id="@+id/pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pantalla3" />
+
+    <ImageView
+        android:id="@+id/canciondia1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/btnYoutube"
+        android:layout_below="@id/dia1"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="-35dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dia1" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#EC0505"
+        android:text="Ver en YouTube"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
